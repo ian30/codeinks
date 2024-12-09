@@ -5,7 +5,7 @@
   import { javascript } from '@codemirror/lang-javascript';
   import { html } from '@codemirror/lang-html';
   import { css } from '@codemirror/lang-css';
-  import { defaultKeymap } from '@codemirror/commands';
+  import { history, historyKeymap, defaultKeymap } from '@codemirror/commands';
   import { syntaxHighlighting, defaultHighlightStyle } from '@codemirror/language';
   import {materialLight} from '@ddietr/codemirror-themes/material-light';
   import {materialDark} from '@ddietr/codemirror-themes/material-dark';
@@ -80,7 +80,8 @@
         currentTheme,
         language(),
         abbreviationTracker(),
-        keymap.of([...defaultKeymap, ...closeBracketsKeymap]),
+        history(),
+        keymap.of([...defaultKeymap, ...closeBracketsKeymap, ...historyKeymap]),
         lineNumbers(),
         syntaxHighlighting(defaultHighlightStyle),
         closeBrackets(),
