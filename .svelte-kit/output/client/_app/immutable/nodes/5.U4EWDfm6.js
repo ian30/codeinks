@@ -1,1 +1,0 @@
-import{a as t,t as m}from"../chunks/disclose-version.BFfpCDGn.js";import"../chunks/legacy.D1AcKqOy.js";var n=m("<main><h1>Contact form</h1></main>");function e(a){var o=n();t(a,o)}export{e as component};

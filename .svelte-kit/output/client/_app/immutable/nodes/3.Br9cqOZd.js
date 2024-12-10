@@ -1,1 +1,0 @@
-import{a as t,t as p}from"../chunks/disclose-version.BFfpCDGn.js";import"../chunks/legacy.D1AcKqOy.js";var m=p("<main><h1>About page</h1></main>");function r(a){var o=m();t(a,o)}export{r as component};

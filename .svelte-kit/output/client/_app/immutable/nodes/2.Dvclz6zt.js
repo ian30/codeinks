@@ -1,1 +1,0 @@
-import{a,t as o}from"../chunks/disclose-version.BFfpCDGn.js";import"../chunks/legacy.D1AcKqOy.js";var s=o('<main><h1>Welcome to CodeInks</h1> <p>Visit <a href="https://svelte.dev/docs/kit" class="svelte-t0gmze">svelte.dev/docs/kit</a> to read the documentation</p></main>');function n(t){var e=s();a(t,e)}export{n as component};
